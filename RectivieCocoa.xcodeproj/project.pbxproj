@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D47074E1CE4140500FBA8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47074D1CE4140500FBA8A5 /* main.m */; };
+		9D4707511CE4140500FBA8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4707501CE4140500FBA8A5 /* AppDelegate.m */; };
+		9D4707541CE4140500FBA8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4707531CE4140500FBA8A5 /* ViewController.m */; };
+		9D4707571CE4140600FBA8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4707551CE4140600FBA8A5 /* Main.storyboard */; };
+		9D4707591CE4140600FBA8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4707581CE4140600FBA8A5 /* Assets.xcassets */; };
+		9D47075C1CE4140600FBA8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D47075A1CE4140600FBA8A5 /* LaunchScreen.storyboard */; };
+		9D4707671CE4140600FBA8A5 /* RectivieCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4707661CE4140600FBA8A5 /* RectivieCocoaTests.m */; };
+		9D4707721CE4140600FBA8A5 /* RectivieCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4707711CE4140600FBA8A5 /* RectivieCocoaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D4707631CE4140600FBA8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4707411CE4140500FBA8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D4707481CE4140500FBA8A5;
+			remoteInfo = RectivieCocoa;
+		};
+		9D47076E1CE4140600FBA8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4707411CE4140500FBA8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D4707481CE4140500FBA8A5;
+			remoteInfo = RectivieCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D4707491CE4140500FBA8A5 /* RectivieCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectivieCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D47074D1CE4140500FBA8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D47074F1CE4140500FBA8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D4707501CE4140500FBA8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D4707521CE4140500FBA8A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D4707531CE4140500FBA8A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D4707561CE4140600FBA8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D4707581CE4140600FBA8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D47075B1CE4140600FBA8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D47075D1CE4140600FBA8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4707621CE4140600FBA8A5 /* RectivieCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectivieCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4707661CE4140600FBA8A5 /* RectivieCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectivieCocoaTests.m; sourceTree = "<group>"; };
+		9D4707681CE4140600FBA8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D47076D1CE4140600FBA8A5 /* RectivieCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectivieCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4707711CE4140600FBA8A5 /* RectivieCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectivieCocoaUITests.m; sourceTree = "<group>"; };
+		9D4707731CE4140600FBA8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D4707461CE4140500FBA8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D47075F1CE4140600FBA8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D47076A1CE4140600FBA8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D4707401CE4140500FBA8A5 = {
+			isa = PBXGroup;
+			children = (
+				9D47074B1CE4140500FBA8A5 /* RectivieCocoa */,
+				9D4707651CE4140600FBA8A5 /* RectivieCocoaTests */,
+				9D4707701CE4140600FBA8A5 /* RectivieCocoaUITests */,
+				9D47074A1CE4140500FBA8A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D47074A1CE4140500FBA8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D4707491CE4140500FBA8A5 /* RectivieCocoa.app */,
+				9D4707621CE4140600FBA8A5 /* RectivieCocoaTests.xctest */,
+				9D47076D1CE4140600FBA8A5 /* RectivieCocoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D47074B1CE4140500FBA8A5 /* RectivieCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				9D47074F1CE4140500FBA8A5 /* AppDelegate.h */,
+				9D4707501CE4140500FBA8A5 /* AppDelegate.m */,
+				9D4707521CE4140500FBA8A5 /* ViewController.h */,
+				9D4707531CE4140500FBA8A5 /* ViewController.m */,
+				9D4707551CE4140600FBA8A5 /* Main.storyboard */,
+				9D4707581CE4140600FBA8A5 /* Assets.xcassets */,
+				9D47075A1CE4140600FBA8A5 /* LaunchScreen.storyboard */,
+				9D47075D1CE4140600FBA8A5 /* Info.plist */,
+				9D47074C1CE4140500FBA8A5 /* Supporting Files */,
+			);
+			path = RectivieCocoa;
+			sourceTree = "<group>";
+		};
+		9D47074C1CE4140500FBA8A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D47074D1CE4140500FBA8A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D4707651CE4140600FBA8A5 /* RectivieCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D4707661CE4140600FBA8A5 /* RectivieCocoaTests.m */,
+				9D4707681CE4140600FBA8A5 /* Info.plist */,
+			);
+			path = RectivieCocoaTests;
+			sourceTree = "<group>";
+		};
+		9D4707701CE4140600FBA8A5 /* RectivieCocoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D4707711CE4140600FBA8A5 /* RectivieCocoaUITests.m */,
+				9D4707731CE4140600FBA8A5 /* Info.plist */,
+			);
+			path = RectivieCocoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D4707481CE4140500FBA8A5 /* RectivieCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4707761CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoa" */;
+			buildPhases = (
+				9D4707451CE4140500FBA8A5 /* Sources */,
+				9D4707461CE4140500FBA8A5 /* Frameworks */,
+				9D4707471CE4140500FBA8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RectivieCocoa;
+			productName = RectivieCocoa;
+			productReference = 9D4707491CE4140500FBA8A5 /* RectivieCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D4707611CE4140600FBA8A5 /* RectivieCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4707791CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoaTests" */;
+			buildPhases = (
+				9D47075E1CE4140600FBA8A5 /* Sources */,
+				9D47075F1CE4140600FBA8A5 /* Frameworks */,
+				9D4707601CE4140600FBA8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D4707641CE4140600FBA8A5 /* PBXTargetDependency */,
+			);
+			name = RectivieCocoaTests;
+			productName = RectivieCocoaTests;
+			productReference = 9D4707621CE4140600FBA8A5 /* RectivieCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D47076C1CE4140600FBA8A5 /* RectivieCocoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D47077C1CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoaUITests" */;
+			buildPhases = (
+				9D4707691CE4140600FBA8A5 /* Sources */,
+				9D47076A1CE4140600FBA8A5 /* Frameworks */,
+				9D47076B1CE4140600FBA8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D47076F1CE4140600FBA8A5 /* PBXTargetDependency */,
+			);
+			name = RectivieCocoaUITests;
+			productName = RectivieCocoaUITests;
+			productReference = 9D47076D1CE4140600FBA8A5 /* RectivieCocoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D4707411CE4140500FBA8A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BateOrganization;
+				TargetAttributes = {
+					9D4707481CE4140500FBA8A5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9D4707611CE4140600FBA8A5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9D4707481CE4140500FBA8A5;
+					};
+					9D47076C1CE4140600FBA8A5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9D4707481CE4140500FBA8A5;
+					};
+				};
+			};
+			buildConfigurationList = 9D4707441CE4140500FBA8A5 /* Build configuration list for PBXProject "RectivieCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D4707401CE4140500FBA8A5;
+			productRefGroup = 9D47074A1CE4140500FBA8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D4707481CE4140500FBA8A5 /* RectivieCocoa */,
+				9D4707611CE4140600FBA8A5 /* RectivieCocoaTests */,
+				9D47076C1CE4140600FBA8A5 /* RectivieCocoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D4707471CE4140500FBA8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D47075C1CE4140600FBA8A5 /* LaunchScreen.storyboard in Resources */,
+				9D4707591CE4140600FBA8A5 /* Assets.xcassets in Resources */,
+				9D4707571CE4140600FBA8A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4707601CE4140600FBA8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D47076B1CE4140600FBA8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D4707451CE4140500FBA8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4707541CE4140500FBA8A5 /* ViewController.m in Sources */,
+				9D4707511CE4140500FBA8A5 /* AppDelegate.m in Sources */,
+				9D47074E1CE4140500FBA8A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D47075E1CE4140600FBA8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4707671CE4140600FBA8A5 /* RectivieCocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4707691CE4140600FBA8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4707721CE4140600FBA8A5 /* RectivieCocoaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D4707641CE4140600FBA8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D4707481CE4140500FBA8A5 /* RectivieCocoa */;
+			targetProxy = 9D4707631CE4140600FBA8A5 /* PBXContainerItemProxy */;
+		};
+		9D47076F1CE4140600FBA8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D4707481CE4140500FBA8A5 /* RectivieCocoa */;
+			targetProxy = 9D47076E1CE4140600FBA8A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D4707551CE4140600FBA8A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D4707561CE4140600FBA8A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D47075A1CE4140600FBA8A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D47075B1CE4140600FBA8A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D4707741CE4140600FBA8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D4707751CE4140600FBA8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D4707771CE4140600FBA8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RectivieCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGR.RectivieCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D4707781CE4140600FBA8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RectivieCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGR.RectivieCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D47077A1CE4140600FBA8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RectivieCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGR.RectivieCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectivieCocoa.app/RectivieCocoa";
+			};
+			name = Debug;
+		};
+		9D47077B1CE4140600FBA8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RectivieCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGR.RectivieCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectivieCocoa.app/RectivieCocoa";
+			};
+			name = Release;
+		};
+		9D47077D1CE4140600FBA8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RectivieCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGR.RectivieCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RectivieCocoa;
+			};
+			name = Debug;
+		};
+		9D47077E1CE4140600FBA8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RectivieCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZGR.RectivieCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RectivieCocoa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D4707441CE4140500FBA8A5 /* Build configuration list for PBXProject "RectivieCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4707741CE4140600FBA8A5 /* Debug */,
+				9D4707751CE4140600FBA8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D4707761CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4707771CE4140600FBA8A5 /* Debug */,
+				9D4707781CE4140600FBA8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D4707791CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D47077A1CE4140600FBA8A5 /* Debug */,
+				9D47077B1CE4140600FBA8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D47077C1CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D47077D1CE4140600FBA8A5 /* Debug */,
+				9D47077E1CE4140600FBA8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D4707411CE4140500FBA8A5 /* Project object */;
+}
