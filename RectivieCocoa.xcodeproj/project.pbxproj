@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00FC06295CDB97998E11B476 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18493B19CE9261E8C4CE500E /* Pods.framework */; };
 		9D47074E1CE4140500FBA8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47074D1CE4140500FBA8A5 /* main.m */; };
 		9D4707511CE4140500FBA8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4707501CE4140500FBA8A5 /* AppDelegate.m */; };
 		9D4707541CE4140500FBA8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4707531CE4140500FBA8A5 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		9D47075C1CE4140600FBA8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D47075A1CE4140600FBA8A5 /* LaunchScreen.storyboard */; };
 		9D4707671CE4140600FBA8A5 /* RectivieCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4707661CE4140600FBA8A5 /* RectivieCocoaTests.m */; };
 		9D4707721CE4140600FBA8A5 /* RectivieCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4707711CE4140600FBA8A5 /* RectivieCocoaUITests.m */; };
+		9DB854031CEC060000893D33 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB854021CEC060000893D33 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18493B19CE9261E8C4CE500E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B81EF013E8B32E89D9F67B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9D4707491CE4140500FBA8A5 /* RectivieCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectivieCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D47074D1CE4140500FBA8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D47074F1CE4140500FBA8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		9D47076D1CE4140600FBA8A5 /* RectivieCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectivieCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4707711CE4140600FBA8A5 /* RectivieCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectivieCocoaUITests.m; sourceTree = "<group>"; };
 		9D4707731CE4140600FBA8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB854011CEC060000893D33 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		9DB854021CEC060000893D33 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		BA176755FF1844BE34ED8A54 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FC06295CDB97998E11B476 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B90A5ECDF2F7042BCF767E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA176755FF1844BE34ED8A54 /* Pods.debug.xcconfig */,
+				46B81EF013E8B32E89D9F67B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81F4FD682154D89725757CD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18493B19CE9261E8C4CE500E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D4707401CE4140500FBA8A5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				9D4707651CE4140600FBA8A5 /* RectivieCocoaTests */,
 				9D4707701CE4140600FBA8A5 /* RectivieCocoaUITests */,
 				9D47074A1CE4140500FBA8A5 /* Products */,
+				19B90A5ECDF2F7042BCF767E /* Pods */,
+				81F4FD682154D89725757CD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +132,8 @@
 				9D4707501CE4140500FBA8A5 /* AppDelegate.m */,
 				9D4707521CE4140500FBA8A5 /* ViewController.h */,
 				9D4707531CE4140500FBA8A5 /* ViewController.m */,
+				9DB854011CEC060000893D33 /* TwoViewController.h */,
+				9DB854021CEC060000893D33 /* TwoViewController.m */,
 				9D4707551CE4140600FBA8A5 /* Main.storyboard */,
 				9D4707581CE4140600FBA8A5 /* Assets.xcassets */,
 				9D47075A1CE4140600FBA8A5 /* LaunchScreen.storyboard */,
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D4707761CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoa" */;
 			buildPhases = (
+				CE375FC4B400113923C4BC42 /* Check Pods Manifest.lock */,
 				9D4707451CE4140500FBA8A5 /* Sources */,
 				9D4707461CE4140500FBA8A5 /* Frameworks */,
 				9D4707471CE4140500FBA8A5 /* Resources */,
+				E5B2A5F13D4FDAC8116B2052 /* Embed Pods Frameworks */,
+				FE600BED858A058F0FC7233B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +297,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE375FC4B400113923C4BC42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B2A5F13D4FDAC8116B2052 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE600BED858A058F0FC7233B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D4707451CE4140500FBA8A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,6 +353,7 @@
 				9D4707541CE4140500FBA8A5 /* ViewController.m in Sources */,
 				9D4707511CE4140500FBA8A5 /* AppDelegate.m in Sources */,
 				9D47074E1CE4140500FBA8A5 /* main.m in Sources */,
+				9DB854031CEC060000893D33 /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +492,7 @@
 		};
 		9D4707771CE4140600FBA8A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA176755FF1844BE34ED8A54 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RectivieCocoa/Info.plist;
@@ -422,6 +504,7 @@
 		};
 		9D4707781CE4140600FBA8A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B81EF013E8B32E89D9F67B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RectivieCocoa/Info.plist;
@@ -496,6 +579,7 @@
 				9D4707781CE4140600FBA8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D4707791CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoaTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +588,7 @@
 				9D47077B1CE4140600FBA8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D47077C1CE4140600FBA8A5 /* Build configuration list for PBXNativeTarget "RectivieCocoaUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +597,7 @@
 				9D47077E1CE4140600FBA8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

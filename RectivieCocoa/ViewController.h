@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+- (IBAction)myAction:(id)sender;
+- (IBAction)myTwoAction:(id)sender;
 
 @end
 
